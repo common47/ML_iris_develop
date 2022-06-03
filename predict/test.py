@@ -2,7 +2,7 @@ import pandas as pd
 
 
 # your project absolute path
-path = "/Users/commo/Downloads/iris-development-main"
+path = "/Users/commo/Documents/IDS/ML_iris_develop"
 
 model = pd.read_pickle(path + "/new_model.pkl")
 

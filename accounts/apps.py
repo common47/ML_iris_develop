@@ -1,16 +1,6 @@
-from django.contrib import admin
+from django.apps import AppConfig
 
-from .models import *
 
-admin.site.register(PredUser)
-
-# Register your models here.
-
-'''
-Leetaegeum
-hufsime203
-
-user_first
-1234
-
-'''
+class AccountsConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'accounts'

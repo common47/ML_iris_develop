@@ -14,7 +14,7 @@ from accounts.models import *
 # 공공api -> json -> 머신러닝
 
 # your project absolute path
-path = "/Users/yoohajun/PycharmProjects/iris_development"
+path = "/Users/commo/Documents/IDS/ML_iris_develop"
 
 def predict(request):
     return render(request, 'predict.html')
